@@ -221,7 +221,7 @@ main .container .left .profile {
 /*--=============== left end ===============--*/
 
 /*--=============== middle start ===============--*/
-/*-- stories start --*/
+/*------ stories start ------*/
 .middle .stories {
     display: flex;
     justify-content: space-between;
@@ -306,6 +306,10 @@ main .container .left .profile {
     border: 3px solid var(--color-primary);
 }
 
+/*------ stories end ------*/
+
+
+/*------ create-post start ------*/
 .middle .create-post {
     width: 100%;
     display: flex;
@@ -326,6 +330,6 @@ main .container .left .profile {
     color: var(--color-dark);
     margin-right: 1rem;
 }
-/*-- stories end --*/
 
+/*------ create-post end ------*/
 /*--=============== middle end ===============--*/
