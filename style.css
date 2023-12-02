@@ -396,3 +396,101 @@ main .container .left .profile {
 
 /*------ feeds end ------*/
 /*--=============== middle end ===============--*/
+
+
+
+/*--=============== right start ===============--*/
+.right {
+    height: max-content;
+    position: sticky;
+    top: var(--sticky-top-right);
+}
+/*------ MESSAGES START ------*/
+.right .messages {
+    background-color: var(--color-white);
+    border-radius: var(--card-border-radius);
+    padding: var(--card-padding);
+}
+
+.right .messages .heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+.right .messages i {
+    font-size: 1.4rem;
+}
+
+.right .messages .search-bar {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+}
+
+.right .messages .catagory {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.right .messages .catagory h6 {
+    width: 100%;
+    text-align: center;
+    border-bottom: 4px solid var(--color-light);
+    padding-bottom: 0.5rem;
+    font-size: 0.85rem;
+}
+
+.right .messages .catagory .active {
+    border-color: var(--color-dark);
+}
+
+.right .messages .catagory .message-requests {
+    color: var(--color-primary);
+}
+
+.right .messages .message {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    align-items: flex-start;
+}
+
+.right .messages .message:last-child {
+    margin: 0;
+}
+
+.right .messages .message p {
+    font-size: 0.8rem;
+}
+
+.right .messages .message .profile-photo {
+    position: relative;
+    overflow: visible;
+}
+
+.right .messages .message .profile-photo img {
+    border-radius: 50%;
+}
+
+.right .messages .message .profile-photo .active {
+    width: 0.8rem;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background-color: var(--color-success);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border: 3px solid var(--color-white);
+}
+
+.right .messages .message .message-body .unseen {
+    font-weight: 600;
+    color: var(--color-dark);
+}
+
+/*------ MESSAGES END ------*/
+
+/*--=============== right end ===============--*/
